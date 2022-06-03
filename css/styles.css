@@ -201,6 +201,7 @@ footer {
     align-items: baseline;
 }
 .footersocials {
+    margin-right: 92px;
 }
 .footer-socials-list {
     display: flex;
@@ -244,6 +245,66 @@ footer {
     height: 20px;
     fill: #FFFFFF;
 }
+
+.footer-form p {
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.footer-form form {
+    display: flex;
+}
+.input-footer {
+    margin-right: 12px;
+    padding: 15px 295px 15px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: var(--background);
+
+    font-size: 16px;
+    line-height: 1.3;
+  
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-submit {
+    padding: 10px 28px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    border: none;
+    background-color: var(--hover-focus-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.input-svg {
+    margin-left: 10px;
+
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+}
+
 
 /*INDEX*/
 
@@ -308,8 +369,8 @@ footer {
 }
 .modal {
     position: absolute;
-    width: 581px;
-    height: 528px;
+    width: 528px;
+    height: 581px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -338,6 +399,78 @@ footer {
 .backdrop.is-hidden {
     opacity: 0;
     pointer-events: none;
+}
+
+.call-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 40px;
+
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.call-form p{
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-align: center;
+    display: block;
+    align-self: center;
+}
+
+.name {
+    margin-bottom: 4px;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: var(--text-color);
+    align-self: flex-start;
+}
+
+.info-input {
+    margin-bottom: 10px;
+    width: 448px;
+    height: 40px;
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+.info-input:hover {
+    border: 1px solid var(--hover-focus-color);
+    cursor: pointer;
+}
+.button-to-send {
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+
+    border: none;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+}
+.checkbox input{
+    display: inline-flex;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+.checkbox a {
+    color: var(--hover-focus-color);
 }
 
 /*ADVANTAGES*/
